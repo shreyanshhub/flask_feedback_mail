@@ -130,7 +130,7 @@ def dashboard():
 
         msg = Message(
                 'Hello',
-                sender ='paramguy18@gmail.com',
+                sender ='yourID@gmail.com',
                 recipients = [str(email)]
                )
         msg.body = "Hi " + str(first_name) +","+'Your response has been recorded.' + " Your feedback is: \n" +str(t_shirt_color)+" \n We will keep you updated on your feedback.Thank you"
