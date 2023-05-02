@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}
+Dashboard
+{% endblock %}
+
+{% block content %}
+<h>
+   Welcome {{user.username}}
+</h>
+<p>
+  Fill out this form:
+
+</p>
+<form action="#" method="post" >
+  <p>
+    First Name:
+    <input type="text" name="first_name"  />
+  </p>
+  <p>
+    Last Name:
+    <input type="text" name="last_name"  />
+  </p>
+  <p>
+    Email:
+    <input type="text" name="email"  />
+  </p>
+  <p>
+    Feedback:
+    <input type="text" name="t_shirt_color"  size="100" />
+  </p>
+  <p>
+    <input type="submit" name="submit"  />
+  </p>
+</form>
+
+{% endblock %}
